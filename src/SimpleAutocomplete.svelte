@@ -815,7 +815,7 @@
       console.log("unselectItem", tag)
     }
     selectedItem = selectedItem.filter((i) => i !== tag)
-    input.focus()
+    // input.focus() // lks 20240929
   }
 
   function processInput() {
